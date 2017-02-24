@@ -12,3 +12,15 @@ When we have control over the fingerprint the web server \emph{sees}
 when we visit a website,
 we can study if and how the content of that website changes
 based on differences in the fingerprint we \emph{serve}.
+
+\section{Controlling the fingerprint}
+
+Many articles have been written on changing the fingerprint in a random fashion
+to prevent the act of fingerprinting from tracking someone.
+We need not simply change the original fingerprint,
+but be able to specify certain characteristics
+the generated fingerprint should have.
+All the characteristics not explicitly provided
+should still be generated in a random fashion,
+but the resulting fingerprint
+should be a plausible combination of characteristics.
