@@ -8,10 +8,10 @@ The act of fingerprinting uses the fingerprint
 to track a specific user
 and possibly serve specific content to that user
 based on the tracking data.
-When we have control over the fingerprint the web server \textit{sees}
+When we have control over the fingerprint the web server \emph{sees}
 when we visit a website,
 we can study if and how the content of that website changes
-based on differences in the fingerprint we \textit{serve}.
+based on differences in the fingerprint we \emph{serve}.
 
 \section{Controlling the fingerprint}
 
@@ -26,12 +26,12 @@ but the resulting fingerprint
 should be a plausible combination of characteristics.
 
 Baumann et al. use correct fingerprints to replace the original one.
-\cite{baumann2016disguised}
+\citep{baumann2016disguised}
 They do this by storing the fingerprints
 of every user of their created browser
-on a server and using these \textit{real} fingerprints to substitute others.
+on a server and using these \emph{real} fingerprints to substitute others.
 With FP-Block fingerprints are really generated.
-\cite{torres2015fpblock}
+\citep{torres2015fpblock}
 By making use of Markov chains they make sure
 that each generated fingerprint is a plausible one.
 
@@ -46,17 +46,18 @@ how the price differs and based on which values of a fingerprint.
 A similar study has been performed recently however,
 with the conclusion that no price discrimination was being applied
 by any of the airlines included in the study.
-\cite{vissers2014crying}
+\citep{vissers2014crying}
 
 \subsection{Malvertisement}
 
 Would malvertisement be mainly directed toward
-fingerprints containing certain characteristics
+fingerprints conaining certain characteristics
 indicating they would be more vulnerable to an attack?
 It already seems that attackers have a preference
 for the Internet Explorer browser
 when targeting malvertisement.
-\cite{li2012knowing}
+<<<<<<< HEAD
+\citep{li2012knowing}
 
 \subsection{A/B testing}
 Websites make use of A/B testing to figure out the impact
@@ -66,7 +67,7 @@ It would be interesting to see if some A/B test
 is being based on the fingerprint of the visitor.
 The fingerprint might be used to determine
 if the visitor at hand will be included in the A/B test
-or that he will be presented the \textit{normal} version of the website.
+or that he will be presented the \emph{normal} version of the website.
 In case the visitor is included in the test
 the fingerprint might be used to determine which version of the change,
 the A or the B version, will be presented.
@@ -92,7 +93,7 @@ After clicking a link in a Whatsapp chat, however,
 Advertisements about that same link pop up on Facebook.
 Is Facebook still able to read along with your chats
 and serve you ads based on you chat history?
-Or is Facebook \textit{simply} making use of your fingerprint
+Or is Facebook \emph{simply} making use of your fingerprint
 when you visit the link from the chat in your browser,
 and serve you ads based on your browsing history?
 
@@ -101,7 +102,7 @@ and serve you ads based on your browsing history?
 \subsection{Fingerprinting}
 
 Current technological possible ways of fingerprinting
-are being discussed in \cite{nikiforakis2014workings}.
+are being discussed in \citep{nikiforakis2014workings}.
 They highlight the possibilities of current fingerprinters,
 of plug-ins that prevent you from being tracked
 and of their shortcomings.
@@ -110,7 +111,7 @@ and of their shortcomings.
 
 Instead of defending against known fingerprinters
 and fingerprinting techniques,
-\cite{acar2013fpdetective} developed a framework
+\citep{acar2013fpdetective} developed a framework
 for detecting active fingerprinters.
 They found out
 that much more fingerprinters are active then previously expected.
@@ -119,13 +120,13 @@ that much more fingerprinters are active then previously expected.
 
 This article discusses basic fingerprinting
 by making use of only IP address, fonts, timezone and screen resolution.
-\cite{boda2011user}
+\citep{boda2011user}
 
 \subsection{Tracking preferences}
 
 Mostly directed towards the perception by users of being tracked
 and their preference therein.
-\cite{melicher2015not}
+\citep{melicher2015not}
 They also discuss current tools to take control over you being tracked
 and their limitations.
 Concluding with a suggestion on how to determine
